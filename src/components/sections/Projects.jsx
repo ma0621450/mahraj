@@ -9,8 +9,7 @@ export default function Projects() {
                 <div className={styles.head}>
                     <h2 className="tagline">our projects</h2>
                     <h3>Our Recent Projects</h3>
-                    <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet
-                        the unique needs of each client.</p>
+                    <p>Discover our recent projects showcasing reliable IT solutions, proven expertise, and measurable results delivered to diverse business needs across Dubai, UAE.</p>
                 </div>
                 <div className={styles.projectsContainer}>
                     <div className={styles.project}>

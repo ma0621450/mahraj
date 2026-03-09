@@ -9,9 +9,8 @@ export default function Team() {
                 <div className={styles.inner}>
                     <div className={styles.head}>
                         <h3 className='tagline'>our team</h3>
-                        <h2>Skilled Expert Team</h2>
-                        <p>Our team is dedicated to delivering exceptional IT solutions tailored to meet
-                            the unique needs of each client.</p>
+                        <h2>Our Qualified IT Team</h2>
+                        <p>Our team consists of experienced IT professionals who deliver reliable solutions in Dubai with precision, efficiency, and a strong understanding of business needs.</p>
                     </div>
                     <div className={styles.cardsContainer}>
                         <div className={styles.cardWrapper}>

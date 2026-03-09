@@ -33,9 +33,7 @@ export default function Footer() {
                                     <img src={logo} alt="" />
                                 </div>
                                 <div className={styles.footerBrandText}>
-                                    <p>Our dedicated support team is available
-                                        24/7 to ensure smooth IT operations,
-                                        quick issue resolution</p>
+                                    <p>Our team delivers reliable, secure, and future-ready IT solutions you can trust to grow your business with confidence.</p>
                                 </div>
                                 <div className={styles.footerBrandSocial}>
                                     <div className={styles.footerBrandSocialIcon}>

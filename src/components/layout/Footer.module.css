@@ -288,6 +288,12 @@ footer {
     line-height: 25px;
 }
 
+@media (max-width: 1400px) {
+    .footerGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 1200px) {
     .footerGrid {
         gap: 40px;

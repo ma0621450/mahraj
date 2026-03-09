@@ -10,10 +10,8 @@ export default function Consultancy() {
             <div className="container">
                 <div className={styles.inner}>
                     <div className={styles.text}>
-                        <h3 className="tagline">Book A Consultancy</h3>
-                        <h2>Our mission is to look after
-                            the financial best interests
-                            with automation</h2>
+                        <h3 className="tagline">Talk to Our Experts</h3>
+                        <h2>You can book a session with our IT experts for clear planning and real, measurable results.</h2>
                         <a href="#" className="btn-primary">Book A Service</a>
                     </div>
                     <div className={styles.imagesGrid}>
