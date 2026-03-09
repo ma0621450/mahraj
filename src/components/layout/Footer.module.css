@@ -1,0 +1,409 @@
+footer {
+    background-image: url("../../assets/footer_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.newsletterText {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.newsletterText h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 42px;
+}
+
+.newsletterIcon {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletterIcon span {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.newsletterForm {
+    max-width: 520px;
+    width: 100%;
+    position: relative;
+}
+
+.newsletterForm input {
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.newsletterForm input::placeholder {
+    color: #757575;
+    font-size: 16px;
+}
+
+.newsletterForm button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    padding: 15px 30px;
+    transform: translateY(-50%);
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerContent {
+    padding-top: 80px;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 75px;
+    padding-block: 40px;
+    border-top: 1px solid #161A2C;
+}
+
+.footerBrand {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footerBrandLogo {
+    max-width: 168px;
+    width: 100%;
+}
+
+.footerBrandLogo img {
+    width: 100%;
+}
+
+.footerBrandText p {
+    max-width: 300px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footerBrandSocial {
+    display: flex;
+    gap: 8px;
+}
+
+.footerBrandSocialIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0D1329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBrandSocialIcon span {
+    color: #868994;
+    font-size: 20px;
+}
+
+.footerServicesTitle h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.footerServicesList ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footerServicesList ul li a {
+    color: #9DA0AD;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.footerServicesList ul li a svg {
+    color: var(--color-primary);
+    font-size: 10px;
+}
+
+.footerContact h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.footerContactList ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footerContactList ul li a {
+    color: #9DA0AD;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.footerContactList ul li a svg {
+    color: var(--color-primary);
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footerPostsTitle h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.footerPostsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerPost {
+    display: flex;
+    gap: 20px;
+}
+
+.footerPostImage {
+    flex: 0 0 80px;
+
+}
+
+.footerPostImageContainer {
+    height: 80px;
+}
+
+
+.footerPostImageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.footerPostText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerPostTextDate {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9DA0AD;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footerPostTextTitle {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}
+
+.footerPostTextReadMore a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.footerBottom {
+    width: 100%;
+    padding-block: 35px;
+    border-top: 1px solid #161A2C;
+}
+
+.footerBottomContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerBottomText p {
+    color: #74787C;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footerBottomLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.footerBottomLinks ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+@media (max-width: 1200px) {
+    .footerGrid {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .newletter {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .newsletterText {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .newsletterText h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .footerGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .footerContent {
+        padding-top: 50px;
+    }
+
+    .footerBottomContent {
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .inner {
+        padding-top: 20px;
+    }
+
+    .newletter {
+        margin-top: 40px;
+    }
+
+    .newsletterIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .newsletterIcon span {
+        font-size: 24px;
+    }
+
+    .newsletterText h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .newsletterForm button {
+        position: static;
+        transform: none;
+        width: 100%;
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .newsletterForm input {
+        border-radius: 10px;
+    }
+
+    .footerGrid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footerBrand {
+        align-items: center;
+    }
+
+    .footerBrandText p {
+        max-width: 100%;
+    }
+
+    .footerBrandSocial {
+        justify-content: center;
+    }
+
+    .footerPost {
+        justify-content: center;
+        text-align: left;
+    }
+
+    .footerPostsList {
+        align-items: flex-start;
+    }
+
+    .footerBottomContent {
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footerBottomLinks ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footerPostTextTitle {
+        max-width: 100%;
+        white-space: normal;
+    }
+}

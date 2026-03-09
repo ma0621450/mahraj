@@ -1,0 +1,63 @@
+.topBar {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-block: 7px;
+    height: 41px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.inner {
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+.links a:hover {
+    opacity: 0.8;
+}
+
+.contactInfo {
+    gap: 35px;
+}
+
+.contactInfo .links {
+    gap: 2px;
+}
+
+.socials {
+    gap: 20px;
+}
+
+.socials .links {
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .linkText,
+    .socialLabel {
+        display: none !important;
+    }
+
+    .socials {
+        gap: 10px;
+    }
+}

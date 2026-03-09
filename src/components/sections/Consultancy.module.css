@@ -1,0 +1,87 @@
+.consultancy {
+    padding-block: 100px;
+}
+
+.inner {
+    background: url("../../assets/consultancy_bg.png");
+    background-size: cover;
+    padding: 100px 0;
+    padding-left: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    max-width: 520px;
+}
+
+.imagesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 260px);
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    top: -200px;
+    rotate: -10deg;
+}
+
+.imgContainer {
+    max-width: 310px;
+    width: 100%;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .imagesGrid {
+        right: -50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .inner {
+        padding-left: 80px;
+    }
+
+    .imagesGrid {
+        scale: 0.9;
+        right: -170px;
+        top: -180px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .consultancy {
+        padding-block: 60px;
+    }
+
+    .inner {
+        padding: 60px 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    .imagesGrid {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .text h2 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,169 @@
+.blog {
+    padding-block: 100px;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.head p {
+    max-width: 565px;
+    margin: 20px auto;
+}
+
+.blogCardContainer {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blogCard {
+    border-radius: 8px;
+    background-color: #F6F6F6;
+}
+
+.blogCardImageContainer {
+    max-width: 408px;
+    width: 100%;
+}
+
+.blogCardImageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.blogCardContent {
+    padding: 35px 30px;
+}
+
+.blogCardMeta {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.blogCardMetaItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blogCardMetaItem span:first-child {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--color-primary);
+}
+
+.blogCardMetaItem span:nth-child(2) {
+    font-size: 16px;
+    line-height: 25px;
+    color: #74787C;
+}
+
+
+.blogCardTitle {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 350px;
+    margin: 15px 0px 30px 0px;
+}
+
+.blogCardLinkContainer {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.blogCardLink {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+@media (max-width: 1024px) {
+    .blog {
+        padding-block: 80px;
+    }
+
+    .head h2 {
+        font-size: 36px;
+    }
+
+    .blogCardContainer {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .blogCard {
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .blogCardImage {
+        flex: 0 0 35%;
+    }
+
+    .blogCardImageContainer {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .blogCardImageContainer img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px 0 0 8px;
+    }
+
+    .blogCardContent {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog {
+        padding-block: 60px;
+    }
+
+    .head h2 {
+        font-size: 28px;
+    }
+
+    .blogCard {
+        flex-direction: column;
+    }
+
+    .blogCardImageContainer img {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .blogCardContent {
+        padding: 25px 20px;
+    }
+
+    .blogCardMeta {
+        gap: 15px;
+    }
+
+    .blogCardTitle {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+}
