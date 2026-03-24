@@ -1,8 +1,8 @@
 import styles from "./Consultancy.module.css";
-import consultancyImage1 from "../../assets/consultancy_1.png";
-import consultancyImage2 from "../../assets/consultancy_2.png";
-import consultancyImage3 from "../../assets/consultancy_3.png";
-import consultancyImage4 from "../../assets/consultancy_4.png";
+import consultancyImage1 from "../../../assets/consultancy_1.png";
+import consultancyImage2 from "../../../assets/consultancy_2.png";
+import consultancyImage3 from "../../../assets/consultancy_3.png";
+import consultancyImage4 from "../../../assets/consultancy_4.png";
 
 export default function Consultancy() {
     return (

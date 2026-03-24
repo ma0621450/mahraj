@@ -1,6 +1,6 @@
 import styles from './About.module.css'
-import aboutImg from '../../assets/about_img.png'
-import ctaSvg from '../../assets/about_cta_svg.svg'
+import aboutImg from '../../../assets/about_img.png'
+import ctaSvg from '../../../assets/about_cta_svg.svg'
 
 export default function About() {
     return (

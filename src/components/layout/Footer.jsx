@@ -1,4 +1,5 @@
 import { FaChevronRight, FaEnvelope } from "react-icons/fa"
+import { Link } from "react-router-dom"
 import styles from "./Footer.module.css"
 import { FaClock, FaClockRotateLeft, FaFacebookF, FaInstagram, FaLinkedin, FaLocationDot, FaPhone, FaYoutube } from "react-icons/fa6"
 import logo from "../../assets/logo.svg"
@@ -58,11 +59,11 @@ export default function Footer() {
                                 </div>
                                 <div className={styles.footerServicesList}>
                                     <ul>
-                                        <li><a href="#"><FaChevronRight /> Database Solution</a></li>
-                                        <li><a href="#"><FaChevronRight /> Data Protection</a></li>
-                                        <li><a href="#"><FaChevronRight />  App Development</a></li>
-                                        <li><a href="#"><FaChevronRight />   Machine Learning</a></li>
-                                        <li><a href="#"><FaChevronRight />   Helpdesk Services</a></li>
+                                        <li><Link to="/services"><FaChevronRight /> Database Solution</Link></li>
+                                        <li><Link to="/services"><FaChevronRight /> Data Protection</Link></li>
+                                        <li><Link to="/services"><FaChevronRight />  App Development</Link></li>
+                                        <li><Link to="/services"><FaChevronRight />   Machine Learning</Link></li>
+                                        <li><Link to="/services"><FaChevronRight />   Helpdesk Services</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -102,7 +103,7 @@ export default function Footer() {
                                             </div>
                                             <h3 className={styles.footerPostTextTitle}>How Businesses Can Leverage AI</h3>
                                             <div className={styles.footerPostTextReadMore}>
-                                                <a href="#">Read More</a>
+                                                <Link to="/blog">Read More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +120,7 @@ export default function Footer() {
                                             </div>
                                             <h3 className={styles.footerPostTextTitle}>IT Industry Key Trends</h3>
                                             <div className={styles.footerPostTextReadMore}>
-                                                <a href="#">Read More</a>
+                                                <Link to="/blog">Read More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -137,9 +138,9 @@ export default function Footer() {
                             </div>
                             <div className={styles.footerBottomLinks}>
                                 <ul>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Site Map</a></li>
+                                    <li><Link to="/#">Privacy Policy</Link></li>
+                                    <li><Link to="/#">Terms of Use</Link></li>
+                                    <li><Link to="/#">Site Map</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -6,17 +6,17 @@ import 'swiper/css/effect-creative';
 
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import styles from './Testimonials.module.css'
-import testimonialSvg from '../../assets/testimonials_svg.svg'
-import userImg from '../../assets/testimonial_avatar.png'
+import testimonialSvg from '../../../assets/testimonials_svg.svg'
+import userImg from '../../../assets/testimonial_avatar.png'
 import { BiSolidStar } from 'react-icons/bi'
-import bottomImg from '../../assets/testimonial-bottom-shape.png'
+import bottomImg from '../../../assets/testimonial-bottom-shape.png'
 
 const testimonialData = [
     {
         id: 1,
         name: "Aarif Al Zahri",
         role: "Cloud Solutions Architect",
-        text: "“Our infrastructure was outdated and exposed to security risks. Then, we find Mahraj Technologies. They redesigned everything with strong controls and clear standards. Their solution removed uncertainty. We now operate with confidence, knowing our systems are secure and built for future growth.”",
+        text: "Our infrastructure was outdated and exposed to security risks. Then, we find Mahraj Technologies. They redesigned everything with strong controls and clear standards. Their solution removed uncertainty. We now operate with confidence, knowing our systems are secure and built for future growth.",
         image: userImg,
         rating: 5
     },
@@ -24,7 +24,7 @@ const testimonialData = [
         id: 2,
         name: "Naveed Al Qassimi",
         role: "Cloud Solutions Architect",
-        text: "“Mahraj Technologies helped us replace confusion with clarity. They introduced strong processes and proper documentation. IT management became predictable and controlled. Daily operations are now smoother, and our team can focus on work without system-related distractions.”",
+        text: "Mahraj Technologies helped us replace confusion with clarity. They introduced strong processes and proper documentation. IT management became predictable and controlled. Daily operations are now smoother, and our team can focus on work without system-related distractions.",
         image: userImg,
         rating: 5
     },
@@ -32,7 +32,7 @@ const testimonialData = [
         id: 3,
         name: "Sameer Al Razi",
         role: "Cloud Solutions Architect",
-        text: "“Before working with Mahraj Technologies, technical interruptions were a constant challenge. Their team implemented proactive monitoring and rapid support. Issues were handled before escalation. Our operations are now stable, reliable, and far more efficient.”",
+        text: "Before working with Mahraj Technologies, technical interruptions were a constant challenge. Their team implemented proactive monitoring and rapid support. Issues were handled before escalation. Our operations are now stable, reliable, and far more efficient.",
         image: userImg,
         rating: 5
     },
@@ -40,7 +40,7 @@ const testimonialData = [
         id: 4,
         name: "Faisal Noorani",
         role: "Cloud Solutions Architect",
-        text: "“Previous vendors made IT complicated and unclear. But Mahraj Technologies explained every step in simple terms. Their transparency and responsiveness built trust. Decisions became easier because we finally understood our technology and its impact on our business.”",
+        text: "Previous vendors made IT complicated and unclear. But Mahraj Technologies explained every step in simple terms. Their transparency and responsiveness built trust. Decisions became easier because we finally understood our technology and its impact on our business.",
         image: userImg,
         rating: 5
     },
@@ -48,7 +48,7 @@ const testimonialData = [
         id: 5,
         name: "Imran Al Hakeem",
         role: "Cloud Solutions Architect",
-        text: "“Mahraj Technologies helped us move beyond system limitations. Their scalable IT solutions and technology improved performance without disruption. We now operate on a technology foundation that supports current demands and future business expansion with confidence.”",
+        text: "Mahraj Technologies helped us move beyond system limitations. Their scalable IT solutions and technology improved performance without disruption. We now operate on a technology foundation that supports current demands and future business expansion with confidence.",
         image: userImg,
         rating: 5
     }

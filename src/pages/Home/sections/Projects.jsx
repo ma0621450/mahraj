@@ -1,6 +1,6 @@
 import { FaCheck } from "react-icons/fa";
 import styles from "./Projects.module.css";
-import projectImg from "../../assets/project1.png";
+import projectImg from "../../../assets/project1.png";
 
 export default function Projects() {
     return (

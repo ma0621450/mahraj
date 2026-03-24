@@ -1,6 +1,6 @@
 import styles from './Hero.module.css'
-import heroWelcomeIcon from '../../assets/hero_welcome_icon.svg'
-import heroImage from '../../assets/Container.png'
+import heroWelcomeIcon from '../../../assets/hero_welcome_icon.svg'
+import heroImage from '../../../assets/Container.png'
 
 export default function Hero() {
     return (

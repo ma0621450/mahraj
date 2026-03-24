@@ -11,7 +11,7 @@
     right: -100px;
     width: 80%;
     height: 100%;
-    background: url('../../assets/hero_gradient.svg');
+    background: url('../../../assets/hero_gradient.svg');
     z-index: -1;
     display: none;
 }

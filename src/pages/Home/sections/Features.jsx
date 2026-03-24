@@ -4,10 +4,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import styles from './Features.module.css';
-import deploymentIcon from '../../assets/features_deployment_icon.svg';
-import developmentIcon from '../../assets/features_development_icon.svg';
-import techSolutionsIcon from '../../assets/features_tech_solutions_icon.svg';
-import aiDrivenInsightsIcon from '../../assets/features_ai_driven_insights_icon.svg';
+import deploymentIcon from '../../../assets/features_deployment_icon.svg';
+import developmentIcon from '../../../assets/features_development_icon.svg';
+import techSolutionsIcon from '../../../assets/features_tech_solutions_icon.svg';
+import aiDrivenInsightsIcon from '../../../assets/features_ai_driven_insights_icon.svg';
 
 const features = [
     { title: 'Business Focus', icon: deploymentIcon, description: "We align every solution with your business goals. Our work supports growth, branding, and long-term results, not just delivery." },
@@ -54,7 +54,7 @@ export default function Features() {
                                     </div>
                                     <h3>{item.title}</h3>
                                     <p>{item.description}</p>
-                                    <a href="#">Read More ➔</a>
+                                    <a href="#">Read More âž”</a>
                                 </div>
                             </SwiperSlide>
                         ))}

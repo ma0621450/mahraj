@@ -1,6 +1,6 @@
 import styles from './Blog.module.css'
 import { FaChevronRight, FaRegCalendar, FaRegUser } from 'react-icons/fa';
-import blogImage from '../../assets/blog_1.png'
+import blogImage from '../../../assets/blog_1.png'
 
 export default function Blog() {
     return (

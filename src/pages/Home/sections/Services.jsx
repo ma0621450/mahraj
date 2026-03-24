@@ -1,8 +1,8 @@
 import styles from './Services.module.css'
-import serviceImg from '../../assets/service_img.png'
-import serviceSvg1 from '../../assets/service_svg_1.svg'
-import serviceSvg2 from '../../assets/service_svg_2.svg'
-import serviceSvg3 from '../../assets/service_svg_3.svg'
+import serviceImg from '../../../assets/service_img.png'
+import serviceSvg1 from '../../../assets/service_svg_1.svg'
+import serviceSvg2 from '../../../assets/service_svg_2.svg'
+import serviceSvg3 from '../../../assets/service_svg_3.svg'
 
 export default function Services() {
 
@@ -37,7 +37,7 @@ export default function Services() {
                     <div className={styles.content}>
                         <div className={styles.contentText}>
                             <h4 className='tagline'>Service Highlights That Create Real Impact</h4>
-                            <h5 className={styles.title}>Analytics Overview You’ve
+                            <h5 className={styles.title}>Analytics Overview Youâ€™ve
                                 Always Wanted</h5>
                             <div className={styles.serviceOffering}>
                                 {serviceOffering.map((service, index) => (

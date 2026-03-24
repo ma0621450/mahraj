@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import logo from "../../assets/logo.svg";
@@ -35,11 +36,11 @@ export default function Navbar() {
                     </div>
 
                     <ul className={styles.navLinks}>
-                        <li><a href="#" className={styles.navItem}>Home</a></li>
-                        <li><a href="#" className={styles.navItem}>About</a></li>
-                        <li><a href="#" className={styles.navItem}>Services</a></li>
-                        <li><a href="#" className={styles.navItem}>Blog</a></li>
-                        <li><a href="#" className={styles.navItem}>Contact</a></li>
+                        <li><Link to="/" className={styles.navItem}>Home</Link></li>
+                        <li><Link to="/about" className={styles.navItem}>About</Link></li>
+                        <li><Link to="/services" className={styles.navItem}>Services</Link></li>
+                        <li><Link to="/blog" className={styles.navItem}>Blog</Link></li>
+                        <li><Link to="/contact" className={styles.navItem}>Contact</Link></li>
                     </ul>
 
                     <div className={styles.rightItems}>
@@ -54,9 +55,9 @@ export default function Navbar() {
                                 </div>
                             </div>
 
-                            <a href="#" className="btn-primary">
+                            <Link to="/contact" className="btn-primary">
                                 Let's Talk <span className={styles.plusIcon}><CiCirclePlus /></span>
-                            </a>
+                            </Link>
                         </div>
 
                         {/* Hamburger button */}
@@ -76,11 +77,11 @@ export default function Navbar() {
                 {/* Dropdown menu panel – sits BELOW the navbar */}
                 <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ""}`}>
                     <ul className={styles.mobileNavLinks}>
-                        <li><a href="#" className={styles.mobileNavItem} onClick={handleLinkClick}>Home</a></li>
-                        <li><a href="#" className={styles.mobileNavItem} onClick={handleLinkClick}>About</a></li>
-                        <li><a href="#" className={styles.mobileNavItem} onClick={handleLinkClick}>Services</a></li>
-                        <li><a href="#" className={styles.mobileNavItem} onClick={handleLinkClick}>Blog</a></li>
-                        <li><a href="#" className={styles.mobileNavItem} onClick={handleLinkClick}>Contact</a></li>
+                        <li><Link to="/" className={styles.mobileNavItem} onClick={handleLinkClick}>Home</Link></li>
+                        <li><Link to="/about" className={styles.mobileNavItem} onClick={handleLinkClick}>About</Link></li>
+                        <li><Link to="/services" className={styles.mobileNavItem} onClick={handleLinkClick}>Services</Link></li>
+                        <li><Link to="/blog" className={styles.mobileNavItem} onClick={handleLinkClick}>Blog</Link></li>
+                        <li><Link to="/contact" className={styles.mobileNavItem} onClick={handleLinkClick}>Contact</Link></li>
                     </ul>
 
 

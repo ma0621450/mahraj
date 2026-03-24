@@ -1,6 +1,6 @@
 import { FaShareAlt } from 'react-icons/fa'
 import styles from './Team.module.css'
-import team1 from '../../assets/team-card.png'
+import team1 from '../../../assets/team-card.png'
 
 export default function Team() {
     return (
